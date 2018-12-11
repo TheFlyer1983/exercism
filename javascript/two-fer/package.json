@@ -72,8 +72,8 @@
       "import/no-unresolved": "off",
       "import/extensions": "off",
       "import/prefer-default-export": "off",
-      "import/no-default-export": "off",
-      "indent": [2, 4]
+      "import/no-default-export": "off"
+      
     }
   },
   "license": "MIT",
