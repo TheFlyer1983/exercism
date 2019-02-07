@@ -16,8 +16,4 @@ describe('A leap year', () => {
   test('year divisible by 400: leap year', () => {
     expect(isLeap(2000)).toBeTruthy();
   });
-
-  test('year divisible by 200, not divisible by 400: common year', () => {
-    expect(isLeap(1800)).toBeFalsy();
-  });
 });
