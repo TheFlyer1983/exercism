@@ -10,12 +10,7 @@
  */
 
 export const decodedValue = (arr) => {
-  const values = arr.map((i, index) => {
-    if (index < 2){
-      return COLORS.indexOf(i);
-    }
-  })
-  return Number(values.join(''));
+  return Number(arr.slice(0, 2).map(i => COLORS.indexOf(i)).join(''));
 };
 
 const COLORS = [
