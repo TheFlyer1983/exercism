@@ -13,7 +13,7 @@
 }; */
 
 // Attempt 2 using Conditional (ternary) Operator
-export const isLeap = (year) => ((year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0));
+export const isLeap = (year) => { return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0); };
 //   if year is divisible by 100 it will calculate if year is divisible by 400. If year is not divisible by 100 it will calculate if year is divisible by 4.
 //   return x;
 // ;
